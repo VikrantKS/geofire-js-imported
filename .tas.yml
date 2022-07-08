@@ -16,7 +16,6 @@ postMerge :
           - "./test/Main.test.ts"
         
         framework : mocha
-        parallelism: 2
 
         
         configFile : "./test/mocha.opts"
@@ -30,11 +29,9 @@ postMerge :
         
         framework : mocha
       
-        parallelism: 3
 
         configFile : "./test/mocha.opts"  
       
         
-      
   
 version : 2.0.1
