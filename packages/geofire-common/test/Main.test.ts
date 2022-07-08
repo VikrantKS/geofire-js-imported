@@ -20,6 +20,7 @@ describe('geoFireUtils Tests:', () => {
       });
     });
 
+    
     it('validateKey() throws errors given invalid keys', () => {
       invalidKeys.forEach((invalidKey) => {
         // @ts-ignore
