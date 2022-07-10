@@ -72,6 +72,8 @@ describe('GeoFire Tests:', () => {
         cl.x('p4');
       }).catch(failTestOnCaughtError);
     });
+    
+    
 
     it('set() handles decimal latitudes and longitudes', (done) => {
       const cl = new Checklist(['p1', 'p2', 'p3', 'p4'], expect, done);
