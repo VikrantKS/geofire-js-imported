@@ -17,7 +17,7 @@ describe('GeoFire Tests:', () => {
   afterEach((done) => {
     afterEachHelper(done);
   });
-
+  console.log("test");
   describe('Constructor:', () => {
     it('Constructor throws errors given invalid Firebase references', () => {
       invalidFirebaseRefs.forEach((invalidFirebaseRef) => {
